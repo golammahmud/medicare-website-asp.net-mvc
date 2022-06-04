@@ -1,0 +1,115 @@
+﻿
+@{
+    ViewData["Title"] = "Welcome to Admin";
+}
+
+<div class="container-fluid">
+    <nav id="navbar" class="navbar navbar-expand-lg  navbar-dark pb-md-4 ">
+        <div class="container-fluid align-content-between align-items-center position-relative">
+            <div class="navbar-brad">
+                <a href="#" class="navbar-brand">
+                    <img src="../images/logo2.png" alt="logo" class="w-100">
+                </a>
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div
+                class="w-100 align-items-center justify-content-center justify-content-between px-md-5    rounded-pill ms-auto me-auto mt-2 mt-md-3 ">
+                <form action="" method="post" class="navbar-form  w-100 align-items-center align-self-center ">
+                    <div class="form-group fs-3 d-flex ">
+                        <input type="text" class="form-control rounded-end border-1 text-start text-white" name="search"
+                            placeholder="search ">
+
+                        <button type="submit" class="btn bg-body hover-none rounded-start ">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="offcanvas offcanvas-start w-75" data-bs-scroll="true" tabindex="-1" id="navbarCollapse"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header ">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                        <img src="../images/logo2.png" alt="logo" class="w-100">
+                    </h5>
+                    <button type="button" class="btn-close text-reset text-white bg-white " data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body justify-content-md-end position-relative">
+                    <ul class="navbar-nav ml-auto h5 my-md-0 my-3 ">
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link text-uppercase">signout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <section id="dashboard-sidebar" class="  pt-md-0 pl-0">
+        <div class="container-lg-fluid  pb-4">
+            <div class="row g-2">
+                <div class="col-md-3 ">
+                    <nav id=" admin-navbar" class="navbar  navbar-expand-md  pb-md-4 ">
+
+                        <div class="admin-navbar-header d-flex  flex-fill  justify-content-between me-auto align-items-center "> 
+                            <!-- d-flex justify-content-between ms-auto align-items-center w-100 -->
+                            <button class="navbar-toggler  justify-content-center ms-md-auto" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBothOptions">
+                                <span class="navbar-toggler-icon "></span>
+                            </button>
+                            <h6 class="text-center text-capitalize fs-5 fw-bolder z-2 text-white d-md-none">Admin
+                                DashBoard</h6>
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                                <img src="../images/logo2.png" alt="logo" class="w-100 h-50 d-md-none">
+                            </h5>
+                        </div>
+                        <div class="admin offcanvas offcanvas-end  w-75 " data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close text-reset text-white h2"
+                                    data-bs-dismiss="offcanvas" aria-label="Close">
+                                </button>
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                                    <img src="../images/logo2.png" alt="logo" class="w-100">
+                                </h5>
+
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="navbar-card" style="width: 100% !important; ">
+                                    <div class="navbar-card-header text-center">
+                                        <h5 class="navbar-card-title fw-bolder fs-3 ">Dashboard</h5>
+                                    </div>
+                                    <div class="navbar-card-body ">
+                                        <nav class=" nav-pills flex-column flex-sm-row">
+                                            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page"
+                                                href="#">dashboard</a>
+                                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
+                                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+                                            <a class="flex-sm-fill text-sm-center nav-link ">Disabled</a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="col-md-9">
+                    <div class="content-card pt-md-1 pl-md-4 justify-content-center align-items-center">
+                        <div class="content-card-header">
+                            <h5 class="content-card-title text-center">Dashboard</h5>
+                        </div>
+                        <div id="admin-content-card" class="content-card-body">
+                            <h1>this is admn bashboard content</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `
+        </div>
+    </section>
+</div>
+

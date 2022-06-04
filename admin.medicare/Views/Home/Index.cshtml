@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+ <section id="dashboard-sidebar" class="pt-md-0 pl-0">
+        <div class="container-fluid  pb-4">
+            <div class="row g-2">
+                <div class="col-md-3 ">
+                    <nav id=" admin-navbar" class="navbar  navbar-expand-md  pb-md-4 ">
+
+                        <div class="admin-navbar-header d-flex  flex-fill  justify-content-between me-auto align-items-center "> 
+                            <!-- d-flex justify-content-between ms-auto align-items-center w-100 -->
+                            <button class="navbar-toggler  justify-content-center ms-md-auto" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBothOptions">
+                                <span class="navbar-toggler-icon "></span>
+                            </button>
+                            <h6 class="text-center text-capitalize fs-5 fw-bolder z-2 text-white d-md-none">Admin
+                                DashBoard</h6>
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                                <img src="../images/logo2.png" alt="logo" class="w-100 h-50 d-md-none">
+                            </h5>
+                        </div>
+                        <div class="admin offcanvas offcanvas-end  w-75 " data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close text-reset text-white h2"
+                                    data-bs-dismiss="offcanvas" aria-label="Close">
+                                </button>
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                                    <img src="../images/logo2.png" alt="logo" class="w-100">
+                                </h5>
+
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="navbar-card" style="width: 100% !important; ">
+                                    <div class="navbar-card-header text-center">
+                                        <h5 class="navbar-card-title fw-bolder fs-3 ">Dashboard</h5>
+                                    </div>
+                                    <div class="navbar-card-body ">
+                                        <nav class=" nav-pills flex-column flex-sm-row">
+                                            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page"
+                                                href="#">dashboard</a>
+                                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
+                                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+                                            <a class="flex-sm-fill text-sm-center nav-link ">Disabled</a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="col-md-9">
+                    <div class="content-card pt-md-1 pl-md-4 justify-content-center align-items-center">
+                        <div class="content-card-header">
+                            <h5 class="content-card-title text-center">Dashboard</h5>
+                        </div>
+                        <div id="admin-content-card" class="content-card-body">
+                            <h1>this is admn bashboard content</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `
+        </div>
+    </section>
+
