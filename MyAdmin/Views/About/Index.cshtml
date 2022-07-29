@@ -1,0 +1,68 @@
+﻿@model IEnumerable<view.modelApp.ViewModel.AboutView>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+
+
+<p class="float-end mt-3">
+    <a asp-action="Create" asp-controller="About" >Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AboutViewImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.createdAt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>    
+                 @if (item.AboutViewImage != null)
+                        {
+                            <img src="~/Uploads/About/@item.AboutViewImage"   
+                             class="rounded"   
+                             height="60" width="60"   
+                             asp-append-version="true" />
+                    }
+                    else
+                    {
+                         <img src="~/Uploads/noimage.jpg"   
+                             class="rounded"   
+                             height="60" width="60"   
+                             asp-append-version="true" />
+                    }
+                                               
+             @*   @Html.DisplayFor(modelItem => item.AboutViewImage)*@
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.createdAt)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Id  }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.Id  }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.Id  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

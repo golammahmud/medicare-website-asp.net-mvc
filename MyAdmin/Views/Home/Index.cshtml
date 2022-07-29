@@ -1,0 +1,165 @@
+﻿@model IEnumerable<view.modelApp.BannerView>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <div
+                  class="content-card justify-content-center align-items-center"
+                >
+                  <div class="content-card-header">
+                    <h5 class="content-card-title text-center">Dashboard</h5>
+                  </div>
+                  <div id="admin-content-card" class="content-card-body">
+                    <div class="row gy-3 align-items-center ">
+                      <div class="col-md-3 ">
+                        <div class="card  justify-content-center me-auto ms-auto align-content-center">
+                          <div class="card-body justify-content-center me-auto ms-auto">
+                            <div class="card-title">
+                              <h5 class="card-title">Total Banners</h5>
+                            </div>
+                            <div class="card-text">
+                              <h3 class="card-text">
+                                <span class="text-primary">
+                                  <i class="bx bx-user"></i>
+                                </span>
+                                <span class="text-dark">
+                                  <span class="counter">@ViewBag.NumOfCount </span>
+                                </span>
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card  justify-content-center me-auto ms-auto align-content-center">
+                          <div class="card-body justify-content-center me-auto ms-auto">
+                            <div class="card-title">
+                              <h5 class="card-title">Total Users</h5>
+                            </div>
+                            <div class="card-text">
+                              <h3 class="card-text">
+                                <span class="text-primary">
+                                  <i class="bx bx-user"></i>
+                                </span>
+                                <span class="text-dark">
+                                  <span class="counter">10</span>
+                                </span>
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card">
+                          <div class="card-body justify-content-center me-auto ms-auto">
+                            <div class="card-title">
+                              <h5 class="card-title">Total Users</h5>
+                            </div>
+                            <div class="card-text">
+                              <h3 class="card-text">
+                                <span class="text-primary">
+                                  <i class="bx bx-user"></i>
+                                </span>
+                                <span class="text-dark">
+                                  <span class="counter">10</span>
+                                </span>
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card">
+                          <div class="card-body justify-content-center me-auto ms-auto">
+                            <div class="card-title">
+                              <h5 class="card-title">Total Users</h5>
+                            </div>
+                            <div class="card-text">
+                              <h3 class="card-text">
+                                <span class="text-primary">
+                                  <i class="bx bx-user"></i>
+                                </span>
+                                <span class="text-dark">
+                                  <span class="counter">10</span>
+                                </span>
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+
+
+
+
+@*
+<p class="float-end">
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CoverImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoverImageUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateTime)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@

@@ -1,0 +1,335 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\ASP.Net Project\\medicare_demo_webapp\\clients.medicareApp\\clients.medicareApp.csproj": {}
+  },
+  "projects": {
+    "H:\\ASP.Net Project\\medicare_demo_webapp\\Api.App\\Api.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\ASP.Net Project\\medicare_demo_webapp\\Api.App\\Api.App.csproj",
+        "projectName": "Api.App",
+        "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\Api.App\\Api.App.csproj",
+        "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
+        "outputPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\Api.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj": {
+                "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj"
+              },
+              "H:\\ASP.Net Project\\medicare_demo_webapp\\view.modelApp\\view.modelApp.csproj": {
+                "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\view.modelApp\\view.modelApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\ASP.Net Project\\medicare_demo_webapp\\clients.medicareApp\\clients.medicareApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\ASP.Net Project\\medicare_demo_webapp\\clients.medicareApp\\clients.medicareApp.csproj",
+        "projectName": "clients.medicareApp",
+        "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\clients.medicareApp\\clients.medicareApp.csproj",
+        "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
+        "outputPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\clients.medicareApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "H:\\ASP.Net Project\\medicare_demo_webapp\\Api.App\\Api.App.csproj": {
+                "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\Api.App\\Api.App.csproj"
+              },
+              "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj": {
+                "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj"
+              },
+              "H:\\ASP.Net Project\\medicare_demo_webapp\\view.modelApp\\view.modelApp.csproj": {
+                "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\view.modelApp\\view.modelApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj",
+        "projectName": "Data.App",
+        "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj",
+        "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
+        "outputPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\ASP.Net Project\\medicare_demo_webapp\\view.modelApp\\view.modelApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\ASP.Net Project\\medicare_demo_webapp\\view.modelApp\\view.modelApp.csproj",
+        "projectName": "view.modelApp",
+        "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\view.modelApp\\view.modelApp.csproj",
+        "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
+        "outputPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\view.modelApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

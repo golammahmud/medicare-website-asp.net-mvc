@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = data.app
-build_property.ProjectDir = H:\ASP.Net Project\medicare_demo_webapp\data.app\
+build_property.RootNamespace = Data.App
+build_property.ProjectDir = H:\ASP.Net Project\medicare_demo_webapp\Data.App\

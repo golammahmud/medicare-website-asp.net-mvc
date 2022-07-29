@@ -1,3 +1,6 @@
+using client.medicareApp.Services;
+using Data.App;
+using Data.App.repository;
 using medicare_demo_webapp.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -5,14 +8,25 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseSqlServer(connectionString));
+
+//var connectionString = builder.Configuration.GetConnectionString("DBConnection");
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//        options.UseSqlServer(connectionString, b => b.MigrationsAssembly("Data.App")));
+
+//builder.Services.AddScoped<IBannerRepository, BannerRepository>();
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+//builder.Services.AddScoped<IBannerService, BannerServices>();
+//builder.Services.AddScoped<IBannerRepository, BannerRepository>();
 
 var app = builder.Build();
 

@@ -1,0 +1,56 @@
+﻿@model view.modelApp.ViewModel.AboutView
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>AboutView</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AboutViewImage)
+        </dt>
+        <dd class = "col-sm-10">
+            @if (Model != null)
+                {
+                    <div> 
+                        @if (Model.AboutViewImage != null)
+                        {
+                            <img src="~/Uploads/About/@Model.AboutViewImage"  width=150 height=160 class="rounded"   asp-append-version="true" />
+                        }
+                        else
+                        {
+                             <img src="~/Uploads/noimage.jpg"  width=150 height=160 class="rounded"   asp-append-version="true" />
+                        }
+                    </div>
+                }
+            @*@Html.DisplayFor(model => model.CoverImageUrl)*@
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.createdAt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.createdAt)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

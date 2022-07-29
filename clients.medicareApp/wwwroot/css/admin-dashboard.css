@@ -1,0 +1,102 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: dimgrey !important; */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: transparent !important;
+}
+
+#admin-navbar {
+    background-color: none !important;
+    z-index: 1;
+}
+
+.search-form-group {
+    background-color: transparent !important;
+}
+
+.search-box {
+    background-color: transparent !important;
+    margin: 50px 20px !important;
+}
+/* .offcanvas-body{
+    background-color: transparent !important;
+} */
+.dashboard-nav-header {
+    max-height: 80px !important;
+    border-radius: 30px 30px 0px 0px !important;
+    background-color: #0F3266 !important;
+}
+
+    .dashboard-nav-header img {
+        height: 70px !important;
+        border-radius: 50% !important;
+    }
+
+#admin-navbar {
+    background-color: #0F3266 !important;
+}
+
+.admin-navbar-header {
+    background-color: #0F3266 !important;
+    width: auto !important;
+    /* min-width: 537px !important; */
+    height: auto !important;
+}
+
+.admin .offcanvas-header {
+    background-color: #0F3266 !important;
+}
+
+.list-group .list-group-item {
+    text-decoration: none !important;
+}
+
+.offcanvas-header {
+    background-color: #0F3266 !important;
+}
+
+.admin .offcanvas-body {
+    background-color: #8fcdf6 !important;
+    color: #ffffff !important;
+    height: auto !important;
+    width: auto !important;
+    min-width: 100% !important;
+    padding: 10px !important;
+    z-index: 2 !important;
+    border-bottom: 1px solid #feffff !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.navbar-card-title {
+    color: #ffffff !important;
+    font-weight: 900;
+    text-shadow: 1px 5px 10px rgba(83,80,80,0.66);
+}
+
+.content-card {
+    background-color: #dee9f4 !important;
+    color: #0f0e0e !important;
+    height: auto !important;
+    width: auto !important;
+    min-width: 100% !important;
+    padding: 10px !important;
+    z-index: 2 !important;
+    margin: 8px 0px 0px 0px !important;
+    border-bottom: 0px solid #feffff !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.content-card-header {
+    background-color: #4bb5fb !important;
+    color: #ffffff !important;
+    height: auto !important;
+    width: auto !important;
+    min-width: 100% !important;
+    padding: 10px !important;
+    z-index: 2 !important;
+    margin: 0px 0px 20px 0px !important;
+    border-bottom: 0px solid #feffff !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

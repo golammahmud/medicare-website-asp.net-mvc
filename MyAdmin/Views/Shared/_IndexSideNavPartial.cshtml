@@ -1,0 +1,149 @@
+﻿
+   <div class="sidebar">
+        <div class="logo-details">
+          <i class='bx bxl-c-plus-plus icon'></i>
+            <div class="logo_name">CodingLab</div>
+            <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+         @* <li>
+              <i class='bx bx-search' ></i>
+             <input type="text" placeholder="Search...">
+             <span class="tooltip">Search</span>
+          </li>*@
+          <li>
+            <a class=" active " asp-area="" aria-current="page" asp-controller="Home" asp-action="Index">
+              <i class='bx bx-grid-alt'></i>
+              <span class="links_name">Dashboard</span>
+            </a>
+             <span class="tooltip">Dashboard</span>
+          </li>
+          <li>
+          <a class=" active " asp-area="" aria-current="page" asp-controller="Banner" asp-action="Index">
+            <i class='bx bx-book-content'></i>
+             <span class="links_name">Banner</span>
+           </a>
+           <span class="tooltip">Banner</span>
+         </li>
+         <li>
+          <a  asp-area="" aria-current="page" asp-controller="About" asp-action="Index">
+             <i class='bx bx-face'></i>
+             <span class="links_name">About</span>
+           </a>
+           <span class="tooltip">About</span>
+         </li>
+         <li>
+           <a href="#">
+             <i class='bx bx-pie-chart-alt-2' ></i>
+             <span class="links_name">Analytics</span>
+           </a>
+           <span class="tooltip">Analytics</span>
+         </li>
+         <li>
+           <a href="#">
+             <i class='bx bx-folder' ></i>
+             <span class="links_name">File Manager</span>
+           </a>
+           <span class="tooltip">Files</span>
+         </li>
+         <li>
+           <a href="#">
+             <i class='bx bx-cart-alt' ></i>
+             <span class="links_name">Order</span>
+           </a>
+           <span class="tooltip">Order</span>
+         </li>
+         <li>
+           <a href="#">
+             <i class='bx bx-heart' ></i>
+             <span class="links_name">Saved</span>
+           </a>
+           <span class="tooltip">Saved</span>
+         </li>
+         <li>
+           <a href="#">
+             <i class='bx bx-cog' ></i>
+             <span class="links_name">Setting</span>
+           </a>
+           <span class="tooltip">Setting</span>
+         </li>
+         <li class="profile">
+             <div class="profile-details">
+               <!--<img src="profile.jpg" alt="profileImg">-->
+               <div class="name_job">
+                 <div class="name">Prem Shahi</div>
+                 <div class="job">Web designer</div>
+               </div>
+             </div>
+             <i class='bx bx-log-out' id="log_out" ></i>
+         </li>
+        </ul>
+    </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<nav id=" admin-navbar" class="navbar  navbar-expand-md  pb-md-4 ">
+
+    <div class="admin-navbar-header d-flex  flex-fill  justify-content-between me-auto align-items-center "> *@
+        <!-- d-flex justify-content-between ms-auto align-items-center w-100 -->
+       @* <button class="navbar-toggler  justify-content-center ms-md-auto" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <h6 class="text-center text-capitalize fs-5 fw-bolder z-2 text-white d-md-none">Admin
+            DashBoard</h6>
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+            <img src="../images/logo2.png" alt="logo" class="w-100 h-50 d-md-none">
+        </h5>
+    </div>
+    <div class="admin offcanvas offcanvas-end  w-75 " data-bs-scroll="true" tabindex="-1"
+        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset text-white h2"
+                data-bs-dismiss="offcanvas" aria-label="Close">
+            </button>
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                <img src="../images/logo2.png" alt="logo" class="w-100">
+            </h5>
+
+        </div>
+        <div class="offcanvas-body">
+            <div class="navbar-card" style="width: 100% !important; ">
+                <div class="navbar-card-header text-center">
+                    <h5 class="navbar-card-title fw-bolder fs-3 ">Dashboard</h5>
+                </div>
+                <div class="navbar-card-body ">
+                    <nav class=" nav-pills flex-column flex-sm-row">
+                        <a class="nav-link text-dark flex-sm-fill text-sm-center active " asp-area="" aria-current="page" asp-controller="Admin" asp-action="Index">Dashboard</a>
+                        <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+                        <a class="flex-sm-fill text-sm-center nav-link ">Disabled</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+*@

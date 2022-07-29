@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5SjkfNp2B1KBCNOLMl+8CsQ2oIhSp1AXrSnyUCc1+6w5mYZxR9YTxa1zyElPT8xyul9Qy+zQGPlTqGMriMZEfw==",
+  "dgSpecHash": "GIKLUOa46Z2AndE3eSnfb6+GMjdCrR2crYLDk7cZUjgdCHoRUm+O3pb503Hbu2J29KEq7Yz4pKpA1sTtLryskA==",
   "success": true,
   "projectFilePath": "H:\\ASP.Net Project\\medicare_demo_webapp\\view.modelApp\\view.modelApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,80 @@
+﻿@model IEnumerable<view.modelApp.BannerView>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p class="float-end justify-content-end align-items-center">
+    <a asp-action="Create" asp-controller="Banner" >Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BannerCoverImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.createdAt)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+                <td> 
+                    @if (item.BannerCoverImage != null)
+                        {
+                            <img src="~/Uploads/Banners/@item.BannerCoverImage "   
+                             class="rounded"   
+                             height="60" width="60"   
+                             asp-append-version="true" />
+                    }
+                    else
+                    {
+                         <img src="~/Uploads/noimage.jpg"   
+                             class="rounded"   
+                             height="60" width="60"   
+                             asp-append-version="true" />
+                    }
+
+                    
+                    
+                </td>  
+            <td>
+                @Html.DisplayFor(modelItem => item.createdAt)
+            </td>
+            <td>
+               @* @Html.ActionLink("Edit", "Edit", new {  id=item.Id  }) |*@
+            <a asp-controller="Banner" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary rounded-0">Edit</a>  
+            <a asp-controller="Banner" asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-primary rounded-0">Details</a> 
+            <a asp-controller="Banner" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-primary rounded-0">Delete</a>  
+               @* @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+         @*       @Html.ActionLink("Delete", "Delete", new {  id=item.Id  })*@
+          
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

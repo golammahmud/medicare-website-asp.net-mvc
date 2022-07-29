@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-medicare_demo_webapp-284F5EDF-5047-426E-B640-126DC6E64B3B")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("client.medicareApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

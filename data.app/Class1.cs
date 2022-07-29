@@ -1,4 +1,4 @@
-﻿namespace data.app
+﻿namespace Data.App
 {
     public class Class1
     {

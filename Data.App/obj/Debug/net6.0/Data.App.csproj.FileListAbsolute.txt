@@ -1,0 +1,14 @@
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\bin\Debug\net6.0\Data.App.deps.json
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\bin\Debug\net6.0\Data.App.dll
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\bin\Debug\net6.0\Data.App.pdb
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\Data.App.csproj.AssemblyReference.cache
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\Data.App.GeneratedMSBuildEditorConfig.editorconfig
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\Data.App.AssemblyInfoInputs.cache
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\Data.App.AssemblyInfo.cs
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\Data.App.csproj.CoreCompileInputs.cache
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\Data.App.dll
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\refint\Data.App.dll
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\Data.App.pdb
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\ref\Data.App.dll
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\bin\Debug\net6.0\Data.App.runtimeconfig.json
+H:\ASP.Net Project\medicare_demo_webapp\Data.App\obj\Debug\net6.0\Data.App.genruntimeconfig.cache

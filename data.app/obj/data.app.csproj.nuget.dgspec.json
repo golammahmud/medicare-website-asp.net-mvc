@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ASP.Net Project\\medicare_demo_webapp\\data.app\\data.app.csproj": {}
+    "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj": {}
   },
   "projects": {
-    "H:\\ASP.Net Project\\medicare_demo_webapp\\data.app\\data.app.csproj": {
+    "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ASP.Net Project\\medicare_demo_webapp\\data.app\\data.app.csproj",
-        "projectName": "data.app",
-        "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\data.app\\data.app.csproj",
+        "projectUniqueName": "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj",
+        "projectName": "Data.App",
+        "projectPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\Data.App.csproj",
         "packagesPath": "C:\\Users\\Md Parvez Meherab\\.nuget\\packages\\",
-        "outputPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\data.app\\obj\\",
+        "outputPath": "H:\\ASP.Net Project\\medicare_demo_webapp\\Data.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Md Parvez Meherab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,34 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
